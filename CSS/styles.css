@@ -19,10 +19,10 @@ header nav .navigation ul{
 header nav{
     display: flex;
     justify-content: space-between;
-    padding: 40px 40px 20px;
+    padding: 20px 40px 20px;
     position: sticky;
     width: 100%;
-    top: 0;
+    top: 0px;
     background-color: #fff;
     z-index: 3;
     cursor: pointer;
