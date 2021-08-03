@@ -19,8 +19,8 @@ header nav .navigation ul{
 header nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px 20px;
-    position: sticky;
+    padding: 10px 40px 20px;
+    position: fixed;
     width: 100%;
     top: 0px;
     background-color: #fff;
