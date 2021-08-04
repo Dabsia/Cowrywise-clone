@@ -936,7 +936,24 @@ h6{
         flex-wrap: wrap;
         flex-direction: column;
     }
-  
+    .hero-text h1{
+        width: 300px;
+        font-size: 2rem;
+       
+        
+    }
+    .hero-text p {
+     
+        width: 250px;
+        
+    }
+    .barge{
+ 
+    
+     
+        margin-bottom: 10px;
+        
+    }
         
   
     .sub-column1 h2{
