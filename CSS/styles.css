@@ -912,8 +912,9 @@ h6{
     }
  
     .box1{
-        padding: 10px;
+        padding: 40px;
     }
+  
     .sign-in{
         display: none;
     }
@@ -924,7 +925,7 @@ h6{
         display: none;
     }
     .box1 p{
-        width: 300px;
+        width: 260px;
         line-height: 1.3;
         margin: 30px 0 60px;
     }
@@ -943,8 +944,8 @@ h6{
         letter-spacing: -1px;
         font-size: 1.8rem;
         letter-spacing: -.4px;
-        line-height: 1;
-        margin-bottom: .7em;
+        line-height: 2rem;
+        margin-bottom: 1em;
         font-weight: 600;
         margin: auto;
        
@@ -971,18 +972,18 @@ h6{
         width: 70%;
        
     }
-    .sub-column2 h4{
+    .sub-column2 h4, .sub-column1 h4{
         font-weight: 600;
-        margin: 0 0 20px;
+        margin: 20px 0 20px;
+        line-height: 1.3rem;
         color: rgba(2,43,105,.6);
         font-size: 1rem;
     }
     .sub-column2 h2{
         margin: 0;
-        letter-spacing: -1px;
         font-size: 1.8rem;
         letter-spacing: -.4px;
-        line-height: 1;
+        line-height: 2rem;
         margin-bottom: .7em;
         font-weight: 600;
     }
@@ -1001,7 +1002,8 @@ h6{
     }
     .sub-column3 h4{
         font-weight: 600;
-        margin: 0 0 20px;
+        margin: 20px 0 20px;
+        line-height: 1.3rem;
         font-size: 1rem;
     }
     h4.send-money{
@@ -1013,7 +1015,7 @@ h6{
         letter-spacing: -1px;
         font-size: 1.8rem;
         letter-spacing: -.4px;
-        line-height: 1;
+        line-height: 2rem;
         margin-bottom: .7em;
         font-weight: 600;
     }
@@ -1037,7 +1039,8 @@ h6{
     }
     .sub-column4 h4, .sub-column5 h4, .sub-column6 h4{
         font-weight: 600;
-            margin: 0 0 20px;
+        margin: 20px 0 20px;
+        line-height: 1.3rem;
             font-size: 1rem;
     }
     .sub-column4 h2, .sub-column5 h2, .sub-column6 h2{
@@ -1045,7 +1048,7 @@ h6{
             letter-spacing: -1px;
             font-size: 1.8rem;
             letter-spacing: -.4px;
-            line-height: 1;
+            line-height: 2rem;
             margin-bottom: .7em;
             font-weight: 600;
     }
