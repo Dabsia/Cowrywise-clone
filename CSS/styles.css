@@ -1174,8 +1174,7 @@ h6{
  
     .convinced h1{
         width: 250px;
-       
-        margin: 37px auto 20px;
+        padding-left:0 ;
         letter-spacing: -.4px;
         line-height: 1.25; 
         font-size: 2.2rem;
@@ -1190,5 +1189,48 @@ h6{
     .statements{
        width: 100%;
     }
+    .statements h2{
+        margin-left: 5px;
+        padding-top: 50px;
+        font-size: 1rem;
+        width: 300px;
+        line-height: 2rem;
+        font-weight: 700;
+        font-family: "CW BR Firma",sans-serif;
+        color:#022b69;
+        text-align: center;
+        font-weight: 700;
+    }
+    .statements h4 {
+        font-family: "CW BR Firma",sans-serif;
+        color: #022b69;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .statements p a {
+        margin-left: 40px;
+       
+    }
+    .problem{
+        font-size: .8rem;
+    }
+    .review{
+      flex-direction: column;
+      width: 100%;
 
+      
+    }
+    .ratings{
+        flex-direction: column;
+    }
+    .review-cards {
+        width: 90%;
+        height: 300px;
+        margin: 20px auto;
+    }
+    .review-cards p{
+        width: 250px;
+        margin-bottom: 10px;
+    }
 }
