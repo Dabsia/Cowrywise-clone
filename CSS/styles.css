@@ -128,6 +128,9 @@ header nav .navigation ul li:first-child{
 }
 svg.apple-store,svg.play-store{
     width: 200px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
 }
 .barge{
  
@@ -1302,5 +1305,22 @@ input::placeholder{
       
     
     }
-
+    .footer_list{
+        margin-left: 10px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer_list ul{
+        width: 120px;
+    }
+    .footer_list ul li{
+        width: 120px;
+        font-size: 11px;
+        margin-right: 12px;
+    }
+    .smiley {
+        font-size: 28px;
+        margin-right: 10px;
+       
+    }
 }
