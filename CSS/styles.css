@@ -736,7 +736,7 @@ span.five{
     justify-content: space-around;
     margin-top: 20px;
 }
-.template-mail{
+.flexed-item{
     display: flex;
     justify-content: space-around;
     background-color: #0066F5;
@@ -783,7 +783,7 @@ input::placeholder{
     color: #fff;
     font-size: 16px;
 }
-.input p{
+.desktop{
     position: absolute;
     bottom: 15px;
     right: 20px;
@@ -869,6 +869,9 @@ h6{
 .funds{
     color: #3f85e8;
 }
+.mobile{
+    display: none;
+}
 .smiley{
     font-size: 40px;
     border-radius: 50px;
@@ -931,6 +934,7 @@ h6{
     }
     svg.apple-store,svg.play-store{
         width: 100px;
+        height: 50px;
     }
     .section{
         flex-wrap: wrap;
@@ -1190,10 +1194,10 @@ h6{
        width: 100%;
     }
     .statements h2{
-        margin-left: 5px;
-        padding-top: 50px;
+        margin: auto;
+        padding-top: 20px;
         font-size: 1rem;
-        width: 300px;
+        width: 90%;
         line-height: 2rem;
         font-weight: 700;
         font-family: "CW BR Firma",sans-serif;
@@ -1221,16 +1225,73 @@ h6{
 
       
     }
+    .ratings h1, .ratings .five{
+        margin-bottom: 20px;
+    }
     .ratings{
         flex-direction: column;
+        align-items: space-between;
     }
     .review-cards {
         width: 90%;
-        height: 300px;
+        height: 350px;
         margin: 20px auto;
     }
     .review-cards p{
         width: 250px;
         margin-bottom: 10px;
     }
+    .flexed-item{
+        flex-direction: column;
+        height: 600px;
+    }
+    .template-mail h1{
+        /* font-size: 1.5rem; */
+        width: 220px;
+        padding-left: 20px;
+    }
+    .template-mail .start{
+        margin-bottom: 0;
+    }
+    
+input{
+    border: none;
+    width: 100%;
+    font-size: 12px;
+
+}
+.input{
+    display: block;
+    width: 80%;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 0;
+    padding-left: 20px;
+    margin-left: 20px;
+   
+    
+
+}
+input::placeholder{
+  
+    font-size: 12px;
+}
+.desktop{
+   display: none;
+ 
+}
+.mobile{
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    width: 80%;
+    font-size: 14px;
+    font-weight: 600;
+    color:#022b69;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+
 }
