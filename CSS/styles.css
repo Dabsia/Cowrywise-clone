@@ -548,7 +548,7 @@ button .get-started {
    
 }
 .content-holder p{
-    color: #fff;
+    color: hsla(0,0%,100%,.8);
     box-shadow: none;
     padding: 0;
     font-size: 16px;
@@ -561,12 +561,12 @@ button .get-started {
 p.learn{
    color: rgb(226, 226, 226);
 }
-.item1, .item2, .item3, .item4{
+.item{
     display: flex;
     
     
 }
-.inside-item1 h4, .inside-item2 h4, .inside-item3 h4, .inside-item4 h4{
+.inside-item h4{
     margin: 0;
     letter-spacing: -1px;
     font-size: 1.3rem;
@@ -578,10 +578,8 @@ p.learn{
     color:#fff;
     margin-left: 30px;
 }
-.inside-item1 p, .inside-item2 p, .inside-item3 p, .inside-item4 p{
-    color: #fff;
-    box-shadow: none;
-    padding: 0;
+.inside-item p{
+    color: hsla(0,0%,100%,.8);
     font-size: 16px;
     letter-spacing: .7px;
     line-height: 1.5rem;
@@ -592,6 +590,7 @@ p.learn{
 }
 .ri-checkbox-line{
     color: white;
+    font-size: 20px;
 }
 .promises{
     display: flex;
@@ -1075,10 +1074,10 @@ h6{
     header nav{
         display: none;
         }
-    body{
+    /* body{
         overflow-x: hidden;
     }
-    
+     */
     .btn{
     
         padding: 10px 30px;
@@ -1094,13 +1093,56 @@ h6{
         font-size: 1.5rem;
     }
     .content-holder p{
-      
+        color: hsla(0,0%,100%,.8);
         line-height: 1.5rem;
         font-weight: 300;
         width: 100%;
         margin: 0 auto 50px;
     }
 
+    .inside-item p{
+        font-size: 14px;
+        letter-spacing: .7px;
+        line-height: 1.6rem;
+        color: hsla(0,0%,100%,.8);
+        width: 270px;
+        padding: 0;
+        margin-left: 0;
+            
 
-        
+    }
+    .inside-item h4{
+        margin-left: 10px;
+        font-size: 1.1rem;
+    }
+    .promises{
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .convinced h3{
+   
+        font-size: .8rem;
+        letter-spacing: .1rem;
+
+    }
+ 
+    .convinced h1{
+        width: 250px;
+       
+        margin: 37px auto 20px;
+        letter-spacing: -.4px;
+        line-height: 1.25; 
+        font-size: 2.2rem;
+    }
+    .testimonials{
+        flex-direction:column;
+    }
+    .testimonials img{
+        width: 100%;
+        height: 350px;
+    }
+    .statements{
+       width: 100%;
+    }
+
 }
